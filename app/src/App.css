@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/410/59/609/rick-and-morty-tv-rick-sanchez-morty-smith-wallpaper-preview.jpg');
+  background-size: contain;
+  color: white;
+  border: 5px solid red;
+  padding-bottom: 1000px;
+  height: 100%;
+}
+
+.App button {
+  width: 20%;
+  height: 30px;
+  background: none;
+  border: 2px solid white;
+  color: white;
+}
+
+.characters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex: 1;
+  color: white;
+}
+
+.char {
+  border: 2px solid white;
+  margin: 1% 0%;
+}
+
+.info {
+  text-align: left;
+}
+
+
+
